@@ -1,0 +1,428 @@
+Uri: https://prorange.ancorathemes.com/home-5/
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\home-5\index-1.htm
+Content Type: text/html
+
+Uri: https://prorange.ancorathemes.com/wp-content/uploads/2020/09/calc-bg-copyright.jpg?id=1220
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-content\uploads\2020\09\calc-bg-copyright-1.jpg
+Content Type: image/jpeg
+
+Uri: https://prorange.ancorathemes.com/wp-content/uploads/2017/03/bg-7.jpg?id=247
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-content\uploads\2017\03\bg-7-1.jpg
+Content Type: image/jpeg
+
+Uri: https://prorange.ancorathemes.com/wp-content/uploads/2020/09/go-bg-copyright.jpg?id=1239
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-content\uploads\2020\09\go-bg-copyright-1.jpg
+Content Type: image/jpeg
+
+Uri: https://gmpg.org/xfn/11
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\xfn\11-1.html
+Content Type: text/html
+
+Uri: https://prorange.ancorathemes.com/feed/
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\feed\index.htm.rss
+Content Type: application/rss+xml
+
+Uri: https://prorange.ancorathemes.com/comments/feed/
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\comments\feed\index.htm.rss
+Content Type: application/rss+xml
+
+Uri: https://prorange.ancorathemes.com/wp-content/plugins/vc-extensions-bundle/css/admin_icon.css?ver=5.8.1
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-content\plugins\vc-extensions-bundle\css\admin_icon.css
+Content Type: text/css
+
+Uri: https://prorange.ancorathemes.com/wp-content/plugins/trx_demo/css/font-icons/css/trx_demo_icons.css
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-content\plugins\trx_demo\css\font-icons\css\trx_demo_icons.css
+Content Type: text/css
+
+Uri: https://prorange.ancorathemes.com/wp-content/plugins/trx_demo/css/font-icons/css/animation.css
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-content\plugins\trx_demo\css\font-icons\css\animation.css
+Content Type: text/css
+
+Uri: https://prorange.ancorathemes.com/wp-includes/css/dist/block-library/style.min.css?ver=5.8.1
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-includes\css\dist\block-library\style.min.css
+Content Type: text/css
+
+Uri: https://prorange.ancorathemes.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-vendors-style.css?ver=5.9.1
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-content\plugins\woocommerce\packages\woocommerce-blocks\build\wc-blocks-vendors-style.css
+Content Type: text/css
+
+Uri: https://prorange.ancorathemes.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-style.css?ver=5.9.1
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-content\plugins\woocommerce\packages\woocommerce-blocks\build\wc-blocks-style.css
+Content Type: text/css
+
+Uri: https://prorange.ancorathemes.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.5.2
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-content\plugins\contact-form-7\includes\css\styles.css
+Content Type: text/css
+
+Uri: https://prorange.ancorathemes.com/wp-content/plugins/essential-grid/public/assets/css/settings.css?ver=3.0.13
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-content\plugins\essential-grid\public\assets\css\settings.css
+Content Type: text/css
+
+Uri: https://prorange.ancorathemes.com/wp-content/plugins/essential-grid/public/assets/font/fontello/css/fontello.css?ver=3.0.13
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-content\plugins\essential-grid\public\assets\font\fontello\css\fontello.css
+Content Type: text/css
+
+Uri: https://prorange.ancorathemes.com/wp-content/plugins/trx_addons/css/font-icons/css/trx_addons_icons-embedded.css?ver=5.8.1
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-content\plugins\trx_addons\css\font-icons\css\trx_addons_icons-embedded.css
+Content Type: text/css
+
+Uri: https://prorange.ancorathemes.com/wp-content/plugins/trx_addons/js/swiper/swiper.min.css
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-content\plugins\trx_addons\js\swiper\swiper.min.css
+Content Type: text/css
+
+Uri: https://prorange.ancorathemes.com/wp-content/plugins/trx_addons/js/magnific/magnific-popup.min.css
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-content\plugins\trx_addons\js\magnific\magnific-popup.min.css
+Content Type: text/css
+
+Uri: https://prorange.ancorathemes.com/wp-content/plugins/trx_addons/css/trx_addons.css
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-content\plugins\trx_addons\css\trx_addons.css
+Content Type: text/css
+
+Uri: https://prorange.ancorathemes.com/wp-content/plugins/trx_addons/css/trx_addons.animation.css?ver=5.8.1
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-content\plugins\trx_addons\css\trx_addons.animation.css
+Content Type: text/css
+
+Uri: https://prorange.ancorathemes.com/wp-content/plugins/trx_demo/css/trx_demo_panels.css
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-content\plugins\trx_demo\css\trx_demo_panels.css
+Content Type: text/css
+
+Uri: https://prorange.ancorathemes.com/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=5.8.0
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-content\plugins\woocommerce\assets\css\woocommerce-layout.css
+Content Type: text/css
+
+Uri: https://prorange.ancorathemes.com/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=5.8.0
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-content\plugins\woocommerce\assets\css\woocommerce-smallscreen.css
+Content Type: text/css
+
+Uri: https://prorange.ancorathemes.com/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=5.8.0
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-content\plugins\woocommerce\assets\css\woocommerce.css
+Content Type: text/css
+
+Uri: https://prorange.ancorathemes.com/wp-content/plugins/calculated-fields-form/css/loader.css?ver=1.1.32
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-content\plugins\calculated-fields-form\css\loader.css
+Content Type: text/css
+
+Uri: https://prorange.ancorathemes.com/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=6.7.0
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-content\plugins\js_composer\assets\css\js_composer.min.css
+Content Type: text/css
+
+Uri: https://prorange.ancorathemes.com/wp-content/plugins/wp-gdpr-compliance/Assets/css/front.css?ver=1634805419
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-content\plugins\wp-gdpr-compliance\Assets\css\front.css
+Content Type: text/css
+
+Uri: https://fonts.googleapis.com/css?family=Source+Sans+Pro:400%2C700%2C600|Libre+Baskerville:400%2C400italic%2C700&subset=latin%2Clatin-ext&ver=5.8.1
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\css.css
+Content Type: text/css
+
+Uri: https://prorange.ancorathemes.com/wp-content/themes/prorange/css/fontello/css/fontello-embedded.css?ver=5.8.1
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-content\themes\prorange\css\fontello\css\fontello-embedded.css
+Content Type: text/css
+
+Uri: https://prorange.ancorathemes.com/wp-content/themes/prorange/style.css
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-content\themes\prorange\style.css
+Content Type: text/css
+
+Uri: https://prorange.ancorathemes.com/wp-content/themes/prorange/css/__styles.css?ver=5.8.1
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-content\themes\prorange\css\__styles.css
+Content Type: text/css
+
+Uri: https://prorange.ancorathemes.com/wp-content/themes/prorange/css/__colors.css?ver=5.8.1
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-content\themes\prorange\css\__colors.css
+Content Type: text/css
+
+Uri: https://prorange.ancorathemes.com/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.16
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-includes\js\mediaelement\mediaelementplayer-legacy.min.css
+Content Type: text/css
+
+Uri: https://prorange.ancorathemes.com/wp-includes/js/mediaelement/wp-mediaelement.min.css?ver=5.8.1
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-includes\js\mediaelement\wp-mediaelement.min.css
+Content Type: text/css
+
+Uri: https://prorange.ancorathemes.com/wp-content/themes/prorange/css/responsive.css?ver=5.8.1
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-content\themes\prorange\css\responsive.css
+Content Type: text/css
+
+Uri: https://prorange.ancorathemes.com/wp-json/
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-json\index.htm.json
+Content Type: application/json
+
+Uri: https://prorange.ancorathemes.com/wp-json/wp/v2/pages/1186
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-json\wp\v2\pages\1186.json
+Content Type: application/json
+
+Uri: https://prorange.ancorathemes.com/wp-includes/wlwmanifest.xml
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-includes\wlwmanifest.xml
+Content Type: text/xml
+
+Uri: https://prorange.ancorathemes.com/wp-json/oembed/1.0/embed?url=https:%2F%2Fprorange.ancorathemes.com%2Fhome-5%2F
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-json\oembed\1.0\embed.json
+Content Type: application/json
+
+Uri: https://prorange.ancorathemes.com/wp-json/oembed/1.0/embed?url=https:%2F%2Fprorange.ancorathemes.com%2Fhome-5%2F&format=xml
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-json\oembed\1.0\embed.xml
+Content Type: text/xml
+
+Uri: https://prorange.ancorathemes.com/wp-content/uploads/2017/04/cropped-favicon-100x100.png
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-content\uploads\2017\04\cropped-favicon-100x100.png
+Content Type: image/png
+
+Uri: https://prorange.ancorathemes.com/wp-content/uploads/2017/04/cropped-favicon-200x200.png
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-content\uploads\2017\04\cropped-favicon-200x200.png
+Content Type: image/png
+
+Uri: https://www.instagram.com/ancora_themes/
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\ancora_themes\index.htm
+Content Type: text/html
+
+Uri: https://www.facebook.com/AncoraThemes/
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\AncoraThemes\index.htm
+Content Type: text/html
+
+Uri: https://themeforest.net/user/ancorathemes/portfolio
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\user\ancorathemes\portfolio.html
+Content Type: text/html
+
+Uri: https://fonts.googleapis.com/css?family=Libre+Baskerville:400|Source+Sans+Pro:600|Roboto:400&display=swap
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\css-1.css
+Content Type: text/css
+
+Uri: https://prorange.ancorathemes.com/wp-content/plugins/calculated-fields-form/css/stylepublic.css?ver=1.1.32
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-content\plugins\calculated-fields-form\css\stylepublic.css
+Content Type: text/css
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/themes/cupertino/jquery-ui.min.css?ver=1.1.32
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\ajax\libs\jqueryui\1.12.1\themes\cupertino\jquery-ui.min.css
+Content Type: text/css
+
+Uri: https://prorange.ancorathemes.com/wp-content/plugins/revslider/public/assets/css/rs6.css?ver=6.5.9
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-content\plugins\revslider\public\assets\css\rs6.css
+Content Type: text/css
+
+Uri: https://prorange.ancorathemes.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.0
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-includes\js\jquery\jquery.min.js
+Content Type: application/javascript
+
+Uri: https://prorange.ancorathemes.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-includes\js\jquery\jquery-migrate.min.js
+Content Type: application/javascript
+
+Uri: https://prorange.ancorathemes.com/wp-content/plugins/revslider/public/assets/js/rbtools.min.js?ver=6.5.9
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-content\plugins\revslider\public\assets\js\rbtools.min.js
+Content Type: application/javascript
+
+Uri: https://prorange.ancorathemes.com/wp-content/plugins/revslider/public/assets/js/rs6.min.js?ver=6.5.9
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-content\plugins\revslider\public\assets\js\rs6.min.js
+Content Type: application/javascript
+
+Uri: https://prorange.ancorathemes.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.5.8.0
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-content\plugins\woocommerce\assets\js\jquery-blockui\jquery.blockUI.min.js
+Content Type: application/javascript
+
+Uri: https://prorange.ancorathemes.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=5.8.0
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-content\plugins\woocommerce\assets\js\frontend\add-to-cart.min.js
+Content Type: application/javascript
+
+Uri: https://prorange.ancorathemes.com/wp-content/plugins/js_composer/assets/js/vendors/woocommerce-add-to-cart.js?ver=6.7.0
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-content\plugins\js_composer\assets\js\vendors\woocommerce-add-to-cart.js
+Content Type: application/javascript
+
+Uri: https://prorange.ancorathemes.com/wp-content/plugins/wp-gdpr-compliance/Assets/js/front.min.js?ver=1634805419
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-content\plugins\wp-gdpr-compliance\Assets\js\front.min.js
+Content Type: application/javascript
+
+Uri: https://prorange.ancorathemes.com/wp-content/uploads/2017/04/3-layers.png
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-content\uploads\2017\04\3-layers.png
+Content Type: image/png
+
+Uri: https://prorange.ancorathemes.com/wp-content/uploads/2017/03/logo-dark.png
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-content\uploads\2017\03\logo-dark.png
+Content Type: image/png
+
+Uri: https://prorange.ancorathemes.com/wp-content/plugins/revslider/public/assets/assets/dummy.png
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-content\plugins\revslider\public\assets\assets\dummy.png
+Content Type: image/png
+
+Uri: https://prorange.ancorathemes.com/wp-content/uploads/2020/09/welcome-1-copyright.jpg
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-content\uploads\2020\09\welcome-1-copyright.jpg
+Content Type: image/jpeg
+
+Uri: https://prorange.ancorathemes.com/wp-content/uploads/2017/03/img232.jpg
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-content\uploads\2017\03\img232.jpg
+Content Type: image/jpeg
+
+Uri: https://prorange.ancorathemes.com/wp-content/uploads/2017/02/marker-2.png
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-content\uploads\2017\02\marker-2.png
+Content Type: image/png
+
+Uri: https://prorange.ancorathemes.com/wp-content/uploads/2017/02/marker-3.png
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-content\uploads\2017\02\marker-3.png
+Content Type: image/png
+
+Uri: https://prorange.ancorathemes.com/wp-content/uploads/2017/02/marker-4.png
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-content\uploads\2017\02\marker-4.png
+Content Type: image/png
+
+Uri: https://prorange.ancorathemes.com/wp-content/uploads/2017/02/marker-5.png
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-content\uploads\2017\02\marker-5.png
+Content Type: image/png
+
+Uri: https://prorange.ancorathemes.com/wp-content/uploads/2017/02/marker-6.png
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-content\uploads\2017\02\marker-6.png
+Content Type: image/png
+
+Uri: https://prorange.ancorathemes.com/wp-content/uploads/2017/02/marker-7.png
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-content\uploads\2017\02\marker-7.png
+Content Type: image/png
+
+Uri: https://prorange.ancorathemes.com/wp-content/uploads/2017/03/logo-4.png
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-content\uploads\2017\03\logo-4.png
+Content Type: image/png
+
+Uri: https://prorange.ancorathemes.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\cdn-cgi\scripts\5c5dd728\cloudflare-static\email-decode.min.js
+Content Type: application/javascript
+
+Uri: https://prorange.ancorathemes.com/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.7
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-includes\js\dist\vendor\regenerator-runtime.min.js
+Content Type: application/javascript
+
+Uri: https://prorange.ancorathemes.com/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-includes\js\dist\vendor\wp-polyfill.min.js
+Content Type: application/javascript
+
+Uri: https://prorange.ancorathemes.com/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.5.2
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-content\plugins\contact-form-7\includes\js\index.js
+Content Type: application/javascript
+
+Uri: https://prorange.ancorathemes.com/wp-content/plugins/trx_addons/js/swiper/swiper.jquery.min.js
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-content\plugins\trx_addons\js\swiper\swiper.jquery.min.js
+Content Type: application/javascript
+
+Uri: https://prorange.ancorathemes.com/wp-content/plugins/trx_addons/js/magnific/jquery.magnific-popup.min.js
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-content\plugins\trx_addons\js\magnific\jquery.magnific-popup.min.js
+Content Type: application/javascript
+
+Uri: https://prorange.ancorathemes.com/wp-content/plugins/trx_addons/js/trx_addons.js
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-content\plugins\trx_addons\js\trx_addons.js
+Content Type: application/javascript
+
+Uri: https://prorange.ancorathemes.com/wp-content/plugins/trx_demo/js/trx_demo_panels.js
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-content\plugins\trx_demo\js\trx_demo_panels.js
+Content Type: application/javascript
+
+Uri: https://prorange.ancorathemes.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.5.8.0
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-content\plugins\woocommerce\assets\js\js-cookie\js.cookie.min.js
+Content Type: application/javascript
+
+Uri: https://prorange.ancorathemes.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=5.8.0
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-content\plugins\woocommerce\assets\js\frontend\woocommerce.min.js
+Content Type: application/javascript
+
+Uri: https://prorange.ancorathemes.com/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=5.8.0
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-content\plugins\woocommerce\assets\js\frontend\cart-fragments.min.js
+Content Type: application/javascript
+
+Uri: https://prorange.ancorathemes.com/wp-content/themes/prorange/js/superfish.js
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-content\themes\prorange\js\superfish.js
+Content Type: application/javascript
+
+Uri: https://prorange.ancorathemes.com/wp-content/themes/prorange/js/__scripts.js
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-content\themes\prorange\js\__scripts.js
+Content Type: application/javascript
+
+Uri: https://prorange.ancorathemes.com/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=4.2.16
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-includes\js\mediaelement\mediaelement-and-player.min.js
+Content Type: application/javascript
+
+Uri: https://prorange.ancorathemes.com/wp-includes/js/mediaelement/mediaelement-migrate.min.js?ver=5.8.1
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-includes\js\mediaelement\mediaelement-migrate.min.js
+Content Type: application/javascript
+
+Uri: https://prorange.ancorathemes.com/wp-includes/js/mediaelement/wp-mediaelement.min.js?ver=5.8.1
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-includes\js\mediaelement\wp-mediaelement.min.js
+Content Type: application/javascript
+
+Uri: https://prorange.ancorathemes.com/wp-includes/js/wp-embed.min.js?ver=5.8.1
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-includes\js\wp-embed.min.js
+Content Type: application/javascript
+
+Uri: https://prorange.ancorathemes.com/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=6.7.0
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-content\plugins\js_composer\assets\js\dist\js_composer_front.min.js
+Content Type: application/javascript
+
+Uri: https://prorange.ancorathemes.com/wp-includes/js/jquery/ui/core.min.js?ver=1.12.1
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-includes\js\jquery\ui\core.min.js
+Content Type: application/javascript
+
+Uri: https://prorange.ancorathemes.com/wp-includes/js/jquery/ui/controlgroup.min.js?ver=1.12.1
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-includes\js\jquery\ui\controlgroup.min.js
+Content Type: application/javascript
+
+Uri: https://prorange.ancorathemes.com/wp-includes/js/jquery/ui/checkboxradio.min.js?ver=1.12.1
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-includes\js\jquery\ui\checkboxradio.min.js
+Content Type: application/javascript
+
+Uri: https://prorange.ancorathemes.com/wp-includes/js/jquery/ui/button.min.js?ver=1.12.1
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-includes\js\jquery\ui\button.min.js
+Content Type: application/javascript
+
+Uri: https://prorange.ancorathemes.com/wp-includes/js/jquery/ui/tooltip.min.js?ver=1.12.1
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-includes\js\jquery\ui\tooltip.min.js
+Content Type: application/javascript
+
+Uri: https://prorange.ancorathemes.com/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.12.1
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-includes\js\jquery\ui\datepicker.min.js
+Content Type: application/javascript
+
+Uri: https://prorange.ancorathemes.com/wp-includes/js/jquery/ui/mouse.min.js?ver=1.12.1
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-includes\js\jquery\ui\mouse.min.js
+Content Type: application/javascript
+
+Uri: https://prorange.ancorathemes.com/wp-includes/js/jquery/ui/slider.min.js?ver=1.12.1
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-includes\js\jquery\ui\slider.min.js
+Content Type: application/javascript
+
+Uri: https://prorange.ancorathemes.com/wp-content/plugins/calculated-fields-form/js/jQuery.stringify.js?ver=pro
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-content\plugins\calculated-fields-form\js\jQuery.stringify.js
+Content Type: application/javascript
+
+Uri: https://prorange.ancorathemes.com/wp-content/plugins/calculated-fields-form/js/jquery.validate.js?ver=pro
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-content\plugins\calculated-fields-form\js\jquery.validate.js
+Content Type: application/javascript
+
+Uri: https://prorange.ancorathemes.com/wp-content/plugins/calculated-fields-form/js/cache/all.js?ver=1.1.32
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-content\plugins\calculated-fields-form\js\cache\all.js
+Content Type: application/javascript
+
+Uri: https://prorange.ancorathemes.com/wp-content/uploads/2020/09/welcome-1-copyright-300x255.jpg
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-content\uploads\2020\09\welcome-1-copyright-300x255.jpg
+Content Type: image/jpeg
+
+Uri: https://prorange.ancorathemes.com/wp-content/uploads/2020/09/welcome-1-copyright-768x654.jpg
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-content\uploads\2020\09\welcome-1-copyright-768x654.jpg
+Content Type: image/jpeg
+
+Uri: https://prorange.ancorathemes.com/wp-content/uploads/2020/09/welcome-1-copyright-370x315.jpg
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-content\uploads\2020\09\welcome-1-copyright-370x315.jpg
+Content Type: image/jpeg
+
+Uri: https://prorange.ancorathemes.com/wp-content/uploads/2020/09/welcome-1-copyright-760x647.jpg
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-content\uploads\2020\09\welcome-1-copyright-760x647.jpg
+Content Type: image/jpeg
+
+Uri: https://prorange.ancorathemes.com/wp-content/uploads/2017/03/img232-251x300.jpg
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\wp-content\uploads\2017\03\img232-251x300.jpg
+Content Type: image/jpeg
+
+Uri: https://wordpress.org/
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\index.htm
+Content Type: text/html
+
+Uri: https://rtl.prorange.ancorathemes.com/
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\index-1.htm
+Content Type: text/html
+
+Uri: https://widget-v4.tidiochat.com/1_79_0/static/js/render.b024cc83c770c5982f49.js
+File Name: C:\Users\Code Page\Desktop\new_site\prorange.ancorathemes.com\1_79_0\static\js\render.b024cc83c770c5982f49.js
+Content Type: application/javascript
+

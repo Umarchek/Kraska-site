@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments for ProRange	</title>
+	<atom:link href="https://prorange.ancorathemes.com/comments/feed/" rel="self" type="application/rss+xml" />
+	<link>https://prorange.ancorathemes.com</link>
+	<description>Painting Company</description>
+	<lastBuildDate>Thu, 23 Mar 2017 14:14:00 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.1</generator>
+	<item>
+		<title>
+		Comment on Why Does Paint Bubble, Crack or Peel by Philip James		</title>
+		<link>https://prorange.ancorathemes.com/why-does-paint-bubble-crack-or-peel/#comment-6</link>
+
+		<dc:creator><![CDATA[Philip James]]></dc:creator>
+		<pubDate>Thu, 23 Mar 2017 14:14:00 +0000</pubDate>
+		<guid isPermaLink="false">https://prorange.ancorathemes.com/?p=128#comment-6</guid>
+
+					<description><![CDATA[Fusce gravida potenti molestie libero iaculis lacinia, lobortis faucibus ad, augue ultricies vestibulum pellentesque, aenean iure, maecenas cursus lorem senectus vitae enim. Nam gravida corrupti. Ut nullam ut mauris porttitor, mollis varius, porttitor arcu sem ut. Amet eu imperdiet, id ut quis orci. Nascetur diam felis eu et, vivamus nec quis. Arcu aliquam fermentum.]]></description>
+			<content:encoded><![CDATA[<p>Fusce gravida potenti molestie libero iaculis lacinia, lobortis faucibus ad, augue ultricies vestibulum pellentesque, aenean iure, maecenas cursus lorem senectus vitae enim. Nam gravida corrupti. Ut nullam ut mauris porttitor, mollis varius, porttitor arcu sem ut. Amet eu imperdiet, id ut quis orci. Nascetur diam felis eu et, vivamus nec quis. Arcu aliquam fermentum.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Comment on How Color Can Affect Your Mood by Adam Brown		</title>
+		<link>https://prorange.ancorathemes.com/how-color-can-affect-your-mood/#comment-5</link>
+
+		<dc:creator><![CDATA[Adam Brown]]></dc:creator>
+		<pubDate>Thu, 23 Mar 2017 14:13:21 +0000</pubDate>
+		<guid isPermaLink="false">https://prorange.ancorathemes.com/?p=125#comment-5</guid>
+
+					<description><![CDATA[Nisl neque vivamus ante malesuada augue fuga, vivamus laudantium magna nunc, a hymenaeos augue ac tempor. Mauris laoreet dui mi dictum. Wisi curabitur nec scelerisque sociis, aptent eu, nisl sit nascetur amet sed leo scelerisque, nullam sociis.]]></description>
+			<content:encoded><![CDATA[<p>Nisl neque vivamus ante malesuada augue fuga, vivamus laudantium magna nunc, a hymenaeos augue ac tempor. Mauris laoreet dui mi dictum. Wisi curabitur nec scelerisque sociis, aptent eu, nisl sit nascetur amet sed leo scelerisque, nullam sociis.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		Comment on Creative Ways to Paint a Ceiling by A WordPress Commenter		</title>
+		<link>https://prorange.ancorathemes.com/hello-world/#comment-1</link>
+
+		<dc:creator><![CDATA[A WordPress Commenter]]></dc:creator>
+		<pubDate>Mon, 27 Feb 2017 17:23:52 +0000</pubDate>
+		<guid isPermaLink="false">https://prorange.ancorathemes.com/?p=1#comment-1</guid>
+
+					<description><![CDATA[Hi, this is a comment.
+To get started with moderating, editing, and deleting comments, please visit the Comments screen in the dashboard.
+Commenter avatars come from &lt;a href=&quot;https://gravatar.com&quot;&gt;Gravatar&lt;/a&gt;.]]></description>
+			<content:encoded><![CDATA[<p>Hi, this is a comment.<br />
+To get started with moderating, editing, and deleting comments, please visit the Comments screen in the dashboard.<br />
+Commenter avatars come from <a href="https://gravatar.com">Gravatar</a>.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>
