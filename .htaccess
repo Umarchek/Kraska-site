@@ -1,7 +1,7 @@
 RewriteEngine on
 RewriteBase /
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /([^.]+)\.html\ HTTP
-RewriteRule ^([^.]+)\.html$ kraskifk.netlify.app/$1 [R=301,L]
+RewriteRule ^([^.]+)\.html$ parade-ice.ru/$1 [R=301,L]
 RewriteCond %{REQUEST_URI} !(\.[^./]+)$
 RewriteCond %{REQUEST_fileNAME} !-d
 RewriteCond %{REQUEST_fileNAME} !-f
