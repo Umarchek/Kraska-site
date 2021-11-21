@@ -2198,6 +2198,7 @@
     var lacy = $("#lacy");
     var vosk = $("#vosk");
     var grunt = $("#grunt");
+    var all = $('#All-items')
 
     Demokry.on("click", () => {
       Demokry.addClass("active__text");
@@ -2207,7 +2208,7 @@
       lacy.removeClass("active__text")
       vosk.removeClass("active__text")
       grunt.removeClass("active__text")
-
+      all.removeClass("active__text")
       $(".Demokry__on").removeClass("hide");
       $(".inter__on").addClass("hide");
       $(".poverx__on").addClass("hide");
@@ -2224,7 +2225,7 @@
       lacy.removeClass("active__text")
       vosk.removeClass("active__text")
       grunt.removeClass("active__text")
-
+      all.removeClass("active__text")
       $(".inter__on").removeClass("hide");
       $(".poverx__on").addClass("hide");
       $(".dekor__on").addClass("hide");
@@ -2241,7 +2242,7 @@
       lacy.removeClass("active__text")
       vosk.removeClass("active__text")
       grunt.removeClass("active__text")
-
+      all.removeClass("active__text")
       $(".poverx__on").removeClass("hide");
       $(".dekor__on").addClass("hide");
       $(".lacy__on").addClass("hide");
@@ -2258,7 +2259,7 @@
       lacy.removeClass("active__text")
       vosk.removeClass("active__text")
       grunt.removeClass("active__text")
-
+      all.removeClass("active__text")
       $(".dekor__on").removeClass("hide");
       $(".poverx__on").addClass("hide");
       $(".lacy__on").addClass("hide");
@@ -2275,7 +2276,7 @@
       dekor.removeClass("active__text")
       vosk.removeClass("active__text")
       grunt.removeClass("active__text")
-
+      all.removeClass("active__text")
       $(".lacy__on").removeClass("hide");
       $(".poverx__on").addClass("hide");
       $(".dekor__on").addClass("hide");
@@ -2292,7 +2293,7 @@
       dekor.removeClass("active__text")
       lacy.removeClass("active__text")
       grunt.removeClass("active__text")
-
+      all.removeClass("active__text")
       $(".vosk__on").removeClass("hide");
       $(".poverx__on").addClass("hide");
       $(".dekor__on").addClass("hide");
@@ -2308,6 +2309,7 @@
       poverx.removeClass("active__text")
       dekor.removeClass("active__text")
       lacy.removeClass("active__text")
+      all.removeClass("active__text")
       vosk.removeClass("active__text")
 
       $(".grunt__on").removeClass("hide");
@@ -2318,14 +2320,22 @@
       $(".Demokry__on").addClass("hide");
       $(".inter__on").addClass("hide");
     });
-    $('.All-items').on("click", () => {
-      grunt.removeClass("hide");
-      Demokry.removeClass("hide")
-      inter.removeClass("hide")
-      poverx.removeClass("hide")
-      dekor.removeClass("hide")
-      lacy.removeClass("hide")
-      vosk.removeClass("hide")
+    all.on("click", () => {
+      all.addClass("active__text");
+      Demokry.removeClass("active__text");
+      inter.removeClass("active__text")
+      poverx.removeClass("active__text")
+      dekor.removeClass("active__text")
+      lacy.removeClass("active__text")
+      vosk.removeClass("active__text")
+      grunt.removeClass("active__text")
+      $(".grunt__on").removeClass("hide");
+      $(".poverx__on").removeClass("hide")
+      $(".dekor__on").removeClass("hide")
+      $(".lacy__on").removeClass("hide")
+      $(".vosk__on").removeClass("hide")
+      $(".Demokry__on").removeClass("hide")
+      $(".inter__on").removeClass("hide")
     })
   </script>
   <style>
