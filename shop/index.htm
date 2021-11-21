@@ -1945,6 +1945,9 @@
                 <h5 class="widget_title">Categories</h5>
                 <ul class="product-categories">
                   <li class="cat-item cat-item-63">
+                    <a id="All-items">Все продукты</a>
+                  </li>
+                  <li class="cat-item cat-item-63">
                     <a id="Demokry">Декоративная краска</a>
                   </li>
                   <li class="cat-item cat-item-64">
@@ -2197,6 +2200,14 @@
     var grunt = $("#grunt");
 
     Demokry.on("click", () => {
+      Demokry.addClass("active__text");
+      inter.removeClass("active__text")
+      poverx.removeClass("active__text")
+      dekor.removeClass("active__text")
+      lacy.removeClass("active__text")
+      vosk.removeClass("active__text")
+      grunt.removeClass("active__text")
+
       $(".Demokry__on").removeClass("hide");
       $(".inter__on").addClass("hide");
       $(".poverx__on").addClass("hide");
@@ -2206,6 +2217,14 @@
       $(".grunt__on").addClass("hide");
     });
     inter.on("click", () => {
+      inter.addClass("active__text");
+      Demokry.removeClass("active__text")
+      poverx.removeClass("active__text")
+      dekor.removeClass("active__text")
+      lacy.removeClass("active__text")
+      vosk.removeClass("active__text")
+      grunt.removeClass("active__text")
+
       $(".inter__on").removeClass("hide");
       $(".poverx__on").addClass("hide");
       $(".dekor__on").addClass("hide");
@@ -2215,6 +2234,14 @@
       $(".Demokry__on").addClass("hide");
     });
     poverx.on("click", () => {
+      poverx.addClass("active__text");
+      Demokry.removeClass("active__text")
+      inter.removeClass("active__text")
+      dekor.removeClass("active__text")
+      lacy.removeClass("active__text")
+      vosk.removeClass("active__text")
+      grunt.removeClass("active__text")
+
       $(".poverx__on").removeClass("hide");
       $(".dekor__on").addClass("hide");
       $(".lacy__on").addClass("hide");
@@ -2224,6 +2251,14 @@
       $(".inter__on").addClass("hide");
     });
     dekor.on("click", () => {
+      dekor.addClass("active__text");
+      Demokry.removeClass("active__text")
+      inter.removeClass("active__text")
+      poverx.removeClass("active__text")
+      lacy.removeClass("active__text")
+      vosk.removeClass("active__text")
+      grunt.removeClass("active__text")
+
       $(".dekor__on").removeClass("hide");
       $(".poverx__on").addClass("hide");
       $(".lacy__on").addClass("hide");
@@ -2233,6 +2268,14 @@
       $(".inter__on").addClass("hide");
     });
     lacy.on("click", () => {
+      lacy.addClass("active__text");
+      Demokry.removeClass("active__text")
+      inter.removeClass("active__text")
+      poverx.removeClass("active__text")
+      dekor.removeClass("active__text")
+      vosk.removeClass("active__text")
+      grunt.removeClass("active__text")
+
       $(".lacy__on").removeClass("hide");
       $(".poverx__on").addClass("hide");
       $(".dekor__on").addClass("hide");
@@ -2242,8 +2285,15 @@
       $(".inter__on").addClass("hide");
     });
     vosk.on("click", () => {
-      $(".vosk__on").removeClass("hide");
+      vosk.addClass("active__text");
+      Demokry.removeClass("active__text")
+      inter.removeClass("active__text")
+      poverx.removeClass("active__text")
+      dekor.removeClass("active__text")
+      lacy.removeClass("active__text")
+      grunt.removeClass("active__text")
 
+      $(".vosk__on").removeClass("hide");
       $(".poverx__on").addClass("hide");
       $(".dekor__on").addClass("hide");
       $(".lacy__on").addClass("hide");
@@ -2252,6 +2302,14 @@
       $(".inter__on").addClass("hide");
     });
     grunt.on("click", () => {
+      grunt.addClass("active__text");
+      Demokry.removeClass("active__text")
+      inter.removeClass("active__text")
+      poverx.removeClass("active__text")
+      dekor.removeClass("active__text")
+      lacy.removeClass("active__text")
+      vosk.removeClass("active__text")
+
       $(".grunt__on").removeClass("hide");
       $(".poverx__on").addClass("hide");
       $(".dekor__on").addClass("hide");
@@ -2261,6 +2319,11 @@
       $(".inter__on").addClass("hide");
     });
   </script>
+  <style>
+    .active__text {
+      color: #000000 !important;
+    }
+  </style>
   <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
   <script type="text/javascript">
     window.RS_MODULES = window.RS_MODULES || {};
