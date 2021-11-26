@@ -317,7 +317,7 @@
     </noscript>
 </head>
 
-<body onload="high__low();low__high();" class="
+<body class="
       archive
       post-type-archive post-type-archive-product
       custom-background
@@ -4801,15 +4801,19 @@
                             </ul>
                             <script>
                                 const big_content = document.querySelector('#big_content');
-                                document.querySelector('#sort_low').onclick = low__high;
-                                document.querySelector('#sort_high').onclick = high__low;
+                                document.querySelector('#sort_low').onclick = function() {
+                                    low__high('data-price')
+                                }
+                                document.querySelector('#sort_high').onclick = function() {
+                                    high__low('data-price')
+                                };
 
                                 function low__high(sortType) {
                                     const big_content = document.querySelector('#big_content');
 
                                     for (let i = 0; i < big_content.children.length; i++) {
                                         for (let j = i; i < big_content.children.length; j++) {
-                                            if (+big_content.children[i].getAttribute('data-price') > +big_content.children.length[j].getAttribute('data-price')) {
+                                            if (+big_content.children[i].getAttribute(sortType) > +big_content.children.length[j].getAttribute(sortType)) {
                                                 replaceNode = big_content.replaceChild(big_content.children[j], big_content.children[i])
                                                 insertAfter(replaceNode, big_content.children[i])
                                             }
@@ -4822,8 +4826,8 @@
                                     const big_content = document.querySelector('#big_content');
 
                                     for (let i = 0; i < big_content.children.length; i++) {
-                                        for (let j = i; i < big_content.children.length; j++) {
-                                            if (+big_content.children[i].getAttribute('data-price') < +big_content.children.length[j].getAttribute('data-price')) {
+                                        for (let j = i; j < big_content.children.length; j++) {
+                                            if (+big_content.children[i].getAttribute(sortType) < +big_content.children.length[j].getAttribute(sortType)) {
                                                 replaceNode = big_content.replaceChild(big_content.children[j], big_content.children[i])
                                                 insertAfter(replaceNode, big_content.children[i])
                                             }
@@ -5648,4 +5652,4 @@
     </style>
 </body>
 
-</html
+</html>
