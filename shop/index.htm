@@ -317,7 +317,7 @@
     </noscript>
 </head>
 
-<body class="
+<body onload="high__low();low__high();" class="
       archive
       post-type-archive post-type-archive-product
       custom-background
@@ -704,6 +704,10 @@
                             <p class="woocommerce-result-count">
                                 Showing 1&ndash;8 of 10 results
                             </p>
+                            <div class="woocommerce-ordering">
+                                <button id="sort_low">low to high</button>
+                                <button id="sort_high">high to low</button>
+                            </div>
                             <ul id="big_content" class="products columns-2">
 
                                 <li data-price="822" data-rating="1" class="
@@ -4796,44 +4800,43 @@
                                 </li>
                             </ul>
                             <script>
-                                // const big_content = document.querySelector('#big_content');
+                                const big_content = document.querySelector('#big_content');
+                                document.querySelector('#sort_low').onclick = low__high;
+                                document.querySelector('#sort_high').onclick = high__low;
 
-                                // function low__high() {
-                                //     for (let i = 0; i < big_content.children; i++) {
-                                //         for (let j = i; i < big_content.children; j++) {
-                                //             if (+big_content.children[i].getAttribute('data-price') > +big_content.children.length[j].getAttribute('data-price')) {
-                                //                 replaceNode = big_content.replaceChild(big_content.children[j], big_content.children[i])
-                                //                 insertAfter(replaceNode, big_content.children[i])
-                                //             }
-                                //         }
-                                //     }
-                                // }
+                                function low__high(sortType) {
+                                    const big_content = document.querySelector('#big_content');
 
-                                // function high__low() {
-                                //     for (let i = 0; i < big_content.children; i++) {
-                                //         for (let j = i; i < big_content.children; j++) {
-                                //             if (+big_content.children[i].getAttribute('data-price') < +big_content.children.length[j].getAttribute('data-price')) {
-                                //                 replaceNode = big_content.replaceChild(big_content.children[j], big_content.children[i])
-                                //                 insertAfter(replaceNode, big_content.children[i])
-                                //             }
-                                //         }
-                                //     }
-                                // }
+                                    for (let i = 0; i < big_content.children.length; i++) {
+                                        for (let j = i; i < big_content.children.length; j++) {
+                                            if (+big_content.children[i].getAttribute('data-price') > +big_content.children.length[j].getAttribute('data-price')) {
+                                                replaceNode = big_content.replaceChild(big_content.children[j], big_content.children[i])
+                                                insertAfter(replaceNode, big_content.children[i])
+                                            }
+                                        }
+                                    }
+                                    console.log('Sort by price: low to high');
+                                }
 
-                                // function insertAfter(elem, refElem) {
-                                //     return refElem.parentNode.insertBefore(elem, refElem.nextSibling)
-                                // }
+                                function high__low(sortType) {
+                                    const big_content = document.querySelector('#big_content');
+
+                                    for (let i = 0; i < big_content.children.length; i++) {
+                                        for (let j = i; i < big_content.children.length; j++) {
+                                            if (+big_content.children[i].getAttribute('data-price') < +big_content.children.length[j].getAttribute('data-price')) {
+                                                replaceNode = big_content.replaceChild(big_content.children[j], big_content.children[i])
+                                                insertAfter(replaceNode, big_content.children[i])
+                                            }
+                                        }
+                                    }
+                                    console.log('Sort by price: high to low');
+                                }
+
+                                function insertAfter(elem, refElem) {
+                                    return refElem.parentNode.insertBefore(elem, refElem.nextSibling)
+                                }
                             </script>
                             <script>
-                                const dropDownList = document.querySelector('.drop-down-list'),
-                                    dropSownListOption = document.querySelectorAll('.drop-down-list__option'),
-                                    const dropDown = () => {
-                                        const dropDownListOptions = document.querySelector('.drop-down-list__options'),
-                                            arrowButton = document.querySelector('.arrow-button');
-                                        dropDownListOptions.classList.toggle('hide');
-                                        arrowButton.classList.toggle('arrow-bottom');
-                                        arrowButton.classList.toggle('arrow-top');
-                                    }
                             </script>
                         </div>
                     </div>
@@ -5645,4 +5648,4 @@
     </style>
 </body>
 
-</html>
+</html
