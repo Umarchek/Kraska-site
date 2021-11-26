@@ -704,10 +704,16 @@
                             <p class="woocommerce-result-count">
                                 Showing 1&ndash;8 of 10 results
                             </p>
-
-                            <div class="onFilters">
-                                <button class="low__high" onclick="low__high()">Sort by price: low to high</button>
-                                <button class="high__low" onclick="high__low()">Sort by price: high to low</button>
+                            <div class="drop-down-list">
+                                <button id="buttonSort" class="drop-down-list__button"><span>SORT BY</span> <span
+                                        class="arrow-button arrow-bottom"></span> </button>
+                                <div class="drop-down-list__options hide">
+                                    <ul>
+                                        <li class="drop-down-list__option"><button type="button" class="drop-down-list__button">Sort by price: low to high</button></li>
+                                        <li class="drop-down-list__option"><button type="button" class="drop-down-list__button">Sort by price: high to low</button></li>
+                                        <li class="drop-down-list__option"><button type="button" class="drop-down-list__button">Top Rated</button></li>
+                                    </ul>
+                                </div>
                             </div>
                             <ul id="big_content" class="products columns-2">
 
@@ -4801,33 +4807,44 @@
                                 </li>
                             </ul>
                             <script>
-                                const big_content = document.querySelector('#big_content');
+                                // const big_content = document.querySelector('#big_content');
 
-                                function low__high() {
-                                    for (let i = 0; i < big_content.children; i++) {
-                                        for (let j = i; i < big_content.children; j++) {
-                                            if (+big_content.children[i].getAttribute('data-price') > +big_content.children.length[j].getAttribute('data-price')) {
-                                                replaceNode = big_content.replaceChild(big_content.children[j], big_content.children[i])
-                                                insertAfter(replaceNode, big_content.children[i])
-                                            }
-                                        }
+                                // function low__high() {
+                                //     for (let i = 0; i < big_content.children; i++) {
+                                //         for (let j = i; i < big_content.children; j++) {
+                                //             if (+big_content.children[i].getAttribute('data-price') > +big_content.children.length[j].getAttribute('data-price')) {
+                                //                 replaceNode = big_content.replaceChild(big_content.children[j], big_content.children[i])
+                                //                 insertAfter(replaceNode, big_content.children[i])
+                                //             }
+                                //         }
+                                //     }
+                                // }
+
+                                // function high__low() {
+                                //     for (let i = 0; i < big_content.children; i++) {
+                                //         for (let j = i; i < big_content.children; j++) {
+                                //             if (+big_content.children[i].getAttribute('data-price') < +big_content.children.length[j].getAttribute('data-price')) {
+                                //                 replaceNode = big_content.replaceChild(big_content.children[j], big_content.children[i])
+                                //                 insertAfter(replaceNode, big_content.children[i])
+                                //             }
+                                //         }
+                                //     }
+                                // }
+
+                                // function insertAfter(elem, refElem) {
+                                //     return refElem.parentNode.insertBefore(elem, refElem.nextSibling)
+                                // }
+                            </script>
+                            <script>
+                                const dropDownList = document.querySelector('.drop-down-list'),
+                                    dropSownListOption = document.querySelectorAll('.drop-down-list__option'),
+                                    const dropDown = () => {
+                                        const dropDownListOptions = document.querySelector('.drop-down-list__options'),
+                                            arrowButton = document.querySelector('.arrow-button');
+                                        dropDownListOptions.classList.toggle('hide');
+                                        arrowButton.classList.toggle('arrow-bottom');
+                                        arrowButton.classList.toggle('arrow-top');
                                     }
-                                }
-
-                                function high__low() {
-                                    for (let i = 0; i < big_content.children; i++) {
-                                        for (let j = i; i < big_content.children; j++) {
-                                            if (+big_content.children[i].getAttribute('data-price') < +big_content.children.length[j].getAttribute('data-price')) {
-                                                replaceNode = big_content.replaceChild(big_content.children[j], big_content.children[i])
-                                                insertAfter(replaceNode, big_content.children[i])
-                                            }
-                                        }
-                                    }
-                                }
-
-                                function insertAfter(elem, refElem) {
-                                    return refElem.parentNode.insertBefore(elem, refElem.nextSibling)
-                                }
                             </script>
                         </div>
                     </div>
