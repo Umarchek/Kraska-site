@@ -4810,16 +4810,16 @@
 
                                 function low__high(sortType) {
                                     const big_content = document.querySelector('#big_content');
-
+                                    console.log('Sort by price: low to high');
                                     for (let i = 0; i < big_content.children.length; i++) {
                                         for (let j = i; i < big_content.children.length; j++) {
-                                            if (+big_content.children[i].getAttribute(sortType) > +big_content.children.length[j].getAttribute(sortType)) {
+                                            if (+big_content.children[i].getAttribute(sortType) > +big_content.children[j].getAttribute(sortType)) {
                                                 replaceNode = big_content.replaceChild(big_content.children[j], big_content.children[i])
                                                 insertAfter(replaceNode, big_content.children[i])
                                             }
                                         }
                                     }
-                                    console.log('Sort by price: low to high');
+                                    // console.log('Sort by price: low to high');
                                 }
 
                                 function high__low(sortType) {
@@ -4827,7 +4827,7 @@
 
                                     for (let i = 0; i < big_content.children.length; i++) {
                                         for (let j = i; j < big_content.children.length; j++) {
-                                            if (+big_content.children[i].getAttribute(sortType) < +big_content.children.length[j].getAttribute(sortType)) {
+                                            if (+big_content.children[i].getAttribute(sortType) < +big_content.children[j].getAttribute(sortType)) {
                                                 replaceNode = big_content.replaceChild(big_content.children[j], big_content.children[i])
                                                 insertAfter(replaceNode, big_content.children[i])
                                             }
