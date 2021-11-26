@@ -704,21 +704,11 @@
                             <p class="woocommerce-result-count">
                                 Showing 1&ndash;8 of 10 results
                             </p>
-                            <form class="woocommerce-ordering" method="get">
-                                <select name="orderby" class="orderby" aria-label="Shop order">
-                                    <option value="popularity">Sort by popularity</option>
-                                    <option value="rating">Sort by average rating</option>
-                                    <option value="date" selected="selected">
-                                        Sort by latest
-                                    </option>
-                                    <option value="price">Sort by price: low to high</option>
-                                    <option value="price-desc">
-                                        Sort by price: high to low
-                                    </option>
-                                </select>
-                                <input type="hidden" name="paged" value="1" />
-                                <input type="hidden" name="q" value="/shop/" />
-                            </form>
+
+                            <div class="onFilters">
+                                <button class="low__high" onclick="low__high()">Sort by price: low to high</button>
+                                <button class="high__low" onclick="high__low()">Sort by price: high to low</button>
+                            </div>
                             <ul id="big_content" class="products columns-2">
 
                                 <li data-price="822" data-rating="1" class="
@@ -4810,7 +4800,35 @@
                                     </div>
                                 </li>
                             </ul>
-                            <script src="shop.js"></script>
+                            <script>
+                                const big_content = document.querySelector('#big_content');
+
+                                function low__high() {
+                                    for (let i = 0; i < big_content.children; i++) {
+                                        for (let j = i; i < big_content.children; j++) {
+                                            if (+big_content.children[i].getAttribute('data-price') > +big_content.children.length[j].getAttribute('data-price')) {
+                                                replaceNode = big_content.replaceChild(big_content.children[j], big_content.children[i])
+                                                insertAfter(replaceNode, big_content.children[i])
+                                            }
+                                        }
+                                    }
+                                }
+
+                                function high__low() {
+                                    for (let i = 0; i < big_content.children; i++) {
+                                        for (let j = i; i < big_content.children; j++) {
+                                            if (+big_content.children[i].getAttribute('data-price') < +big_content.children.length[j].getAttribute('data-price')) {
+                                                replaceNode = big_content.replaceChild(big_content.children[j], big_content.children[i])
+                                                insertAfter(replaceNode, big_content.children[i])
+                                            }
+                                        }
+                                    }
+                                }
+
+                                function insertAfter(elem, refElem) {
+                                    return refElem.parentNode.insertBefore(elem, refElem.nextSibling)
+                                }
+                            </script>
                         </div>
                     </div>
                     <div class="sidebar right widget_area" role="complementary">
