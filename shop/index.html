@@ -704,10 +704,201 @@
                             <p class="woocommerce-result-count">
                                 Showing 1&ndash;8 of 10 results
                             </p>
-                            <div class="woocommerce-ordering">
-                                <button id="sort_low">low to high</button>
-                                <button id="sort_high">high to low</button>
+                            <div class="select-wrapper">
+                                <div class="select">
+                                    <div class="select__trigger"><span style="font-size: 12px;">Sort</span>
+                                        <div style="font-size: 12px;" class="arrow"></div>
+                                    </div>
+                                    <div class="custom-options">
+                                        <span style="font-size: 12px;" id="sort_low" class="custom-option selected" data-value="volvo">Sort by price: low to high</span>
+                                        <span style="font-size: 12px;" id="sort_high" class="custom-option" data-value="mercedes">Sort by price: high to low</span>
+                                    </div>
+                                </div>
                             </div>
+                            <style>
+                                .select-wrapper {
+                                    position: relative;
+                                    user-select: none;
+                                    width: 100%;
+                                    margin-left: 565px;
+                                }
+                                
+                                .select {
+                                    width: 200px;
+                                    position: relative;
+                                    display: flex;
+                                    flex-direction: column;
+                                    border-width: 0 2px 0 2px;
+                                    border-style: solid;
+                                    border-color: #394a6d;
+                                }
+                                
+                                .select__trigger {
+                                    position: relative;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    padding: 0 22px;
+                                    font-size: 20px;
+                                    font-weight: 300;
+                                    color: #3b3b3b;
+                                    height: 50px;
+                                    line-height: 60px;
+                                    background: #ffffff;
+                                    cursor: pointer;
+                                    border-width: 2px 0 2px 0;
+                                    border-style: solid;
+                                    border-color: #394a6d;
+                                }
+                                
+                                .custom-options {
+                                    position: absolute;
+                                    display: block;
+                                    top: 100%;
+                                    left: 0;
+                                    right: 0;
+                                    border: 2px solid #394a6d;
+                                    border-top: 0;
+                                    background: #fff;
+                                    transition: all 0.5s;
+                                    opacity: 0;
+                                    visibility: hidden;
+                                    pointer-events: none;
+                                    z-index: 2;
+                                }
+                                
+                                .select.open .custom-options {
+                                    opacity: 1;
+                                    visibility: visible;
+                                    pointer-events: all;
+                                }
+                                
+                                .custom-option {
+                                    position: relative;
+                                    display: block;
+                                    padding: 0 22px 0 22px;
+                                    font-size: 22px;
+                                    font-weight: 300;
+                                    color: #3b3b3b;
+                                    line-height: 50px;
+                                    cursor: pointer;
+                                    transition: all 0.5s;
+                                }
+                                
+                                .custom-option:hover {
+                                    cursor: pointer;
+                                    background-color: #b2b2b2;
+                                }
+                                
+                                .custom-option.selected {
+                                    color: #ffffff;
+                                    background-color: #305c91;
+                                }
+                                
+                                .arrow {
+                                    position: relative;
+                                    height: 15px;
+                                    width: 15px;
+                                }
+                                
+                                .arrow::before,
+                                .arrow::after {
+                                    content: "";
+                                    position: absolute;
+                                    bottom: 0px;
+                                    width: 0.15rem;
+                                    height: 100%;
+                                    transition: all 0.5s;
+                                }
+                                
+                                .arrow::before {
+                                    left: -5px;
+                                    transform: rotate(45deg);
+                                    background-color: #394a6d;
+                                }
+                                
+                                .arrow::after {
+                                    left: 5px;
+                                    transform: rotate(-45deg);
+                                    background-color: #394a6d;
+                                }
+                                
+                                .open .arrow::before {
+                                    left: -5px;
+                                    transform: rotate(-45deg);
+                                }
+                                
+                                .open .arrow::after {
+                                    left: 5px;
+                                    transform: rotate(45deg);
+                                }
+                            </style>
+                            <script>
+                                const big_content = document.querySelector('#big_content');
+                                document.querySelector('#sort_low').onclick = function() {
+                                    low__high('data-price')
+                                }
+                                document.querySelector('#sort_high').onclick = function() {
+                                    high__low('data-price')
+                                };
+
+                                function low__high(sortType) {
+                                    const big_content = document.querySelector('#big_content');
+                                    console.log('Sort by price: low to high');
+                                    for (let i = 0; i < big_content.children.length; i++) {
+                                        for (let j = i; i < big_content.children.length; j++) {
+                                            if (+big_content.children[i].getAttribute(sortType) > +big_content.children[j].getAttribute(sortType)) {
+                                                replaceNode = big_content.replaceChild(big_content.children[j], big_content.children[i])
+                                                insertAfter(replaceNode, big_content.children[i])
+                                            }
+                                        }
+                                    }
+                                    console.log('Sort by price: low to high');
+                                }
+
+                                function high__low(sortType) {
+                                    const big_content = document.querySelector('#big_content');
+
+                                    for (let i = 0; i < big_content.children.length; i++) {
+                                        for (let j = i; j < big_content.children.length; j++) {
+                                            if (+big_content.children[i].getAttribute(sortType) < +big_content.children[j].getAttribute(sortType)) {
+                                                replaceNode = big_content.replaceChild(big_content.children[j], big_content.children[i])
+                                                insertAfter(replaceNode, big_content.children[i])
+                                            }
+                                        }
+                                    }
+                                    console.log('Sort by price: high to low');
+                                }
+
+                                function insertAfter(elem, refElem) {
+                                    return refElem.parentNode.insertBefore(elem, refElem.nextSibling)
+                                }
+                                document.querySelector('.select-wrapper').addEventListener('click', function() {
+                                    this.querySelector('.select').classList.toggle('open');
+                                })
+                                for (const option of document.querySelectorAll(".custom-option")) {
+                                    option.addEventListener('click', function() {
+                                        if (!this.classList.contains('selected')) {
+                                            this.parentNode.querySelector('.custom-option.selected').classList.remove('selected');
+                                            this.classList.add('selected');
+                                            this.closest('.select').querySelector('.select__trigger span').textContent = this.textContent;
+                                        }
+                                    })
+                                }
+                                window.addEventListener('click', function(e) {
+                                    const select = document.querySelector('.select')
+                                    if (!select.contains(e.target)) {
+                                        select.classList.remove('open');
+                                    }
+                                });
+                                window.addEventListener('click', function(e) {
+                                    for (const select of document.querySelectorAll('.select')) {
+                                        if (!select.contains(e.target)) {
+                                            select.classList.remove('open');
+                                        }
+                                    }
+                                });
+                            </script>
                             <ul id="big_content" class="products columns-2">
 
                                 <li data-price="822" data-rating="1" class="
@@ -4079,55 +4270,6 @@ product type-product post-896 status-publish first instock product_cat-exterior-
                                     </div>
                                 </li>
                             </ul>
-                            <script>
-                                const big_content = document.querySelector('#big_content');
-
-                                function low() {
-                                    document.querySelector('#sort_low').onclick = function() {
-                                        low__high('data-price')
-                                    }
-                                }
-
-                                function high() {
-                                    document.querySelector('#sort_high').onclick = function() {
-                                        high__low('data-price')
-                                    };
-                                }
-
-                                function low__high(sortType) {
-                                    const big_content = document.querySelector('#big_content');
-                                    console.log('Sort by price: low to high');
-                                    for (let i = 0; i < big_content.children.length; i++) {
-                                        for (let j = i; i < big_content.children.length; j++) {
-                                            if (+big_content.children[i].getAttribute(sortType) > +big_content.children[j].getAttribute(sortType)) {
-                                                replaceNode = big_content.replaceChild(big_content.children[j], big_content.children[i])
-                                                insertAfter(replaceNode, big_content.children[i])
-                                            }
-                                        }
-                                    }
-                                    // console.log('Sort by price: low to high');
-                                }
-
-                                function high__low(sortType) {
-                                    const big_content = document.querySelector('#big_content');
-
-                                    for (let i = 0; i < big_content.children.length; i++) {
-                                        for (let j = i; j < big_content.children.length; j++) {
-                                            if (+big_content.children[i].getAttribute(sortType) < +big_content.children[j].getAttribute(sortType)) {
-                                                replaceNode = big_content.replaceChild(big_content.children[j], big_content.children[i])
-                                                insertAfter(replaceNode, big_content.children[i])
-                                            }
-                                        }
-                                    }
-                                    console.log('Sort by price: high to low');
-                                }
-
-                                function insertAfter(elem, refElem) {
-                                    return refElem.parentNode.insertBefore(elem, refElem.nextSibling)
-                                }
-                            </script>
-                            <script>
-                            </script>
                         </div>
                     </div>
                     <div class="sidebar right widget_area" role="complementary">
