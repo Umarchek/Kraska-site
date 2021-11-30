@@ -605,13 +605,35 @@
                                     <h1 class="woocommerce-products-header__title page-title">Shop</h1>
                                 </header>
                             </div>
-                            <div class="woocommerce-notices-wrapper"></div>
-                            <div class="prorange_shop_mode_buttons">
-                                <form action="../catalog/" method="post">
-                                    <input type="hidden" name="prorange_shop_mode" value="list" />
-                                    <a href="../catalog/" class="woocommerce_thumbs icon-th" title="Show products as thumbs"></a>
-                                    <a href="../catalog-1/" class="woocommerce_list icon-th-list" title="Show products as list"></a>
-                                </form>
+                            <div class="div__bos" style="display: flex;
+                            justify-content: space-between;">
+                                <div class="left">
+                                    <div class="woocommerce-notices-wrapper"></div>
+                                    <div class="prorange_shop_mode_buttons">
+                                        <div>
+                                            <input type="hidden" name="prorange_shop_mode" value="thumbs" />
+                                            <a href="../catalog/" class="woocommerce_thumbs icon-th" title="Show products as thumbs"></a>
+                                            <a href="../catalog-1/" class="woocommerce_list icon-th-list" title="Show products as list"></a>
+                                        </div>
+                                    </div>
+                                    <p class="woocommerce-result-count">
+                                        Showing 1&ndash;8 of 10 results
+                                    </p>
+                                </div>
+                                <div class="right">
+                                    <div class="select-wrapper">
+                                        <div class="select">
+                                            <div class="select__trigger"><span style="font-size: 12px;">Sort</span>
+                                                <div style="font-size: 12px;" class="arrow"></div>
+                                            </div>
+                                            <div class="custom-options">
+                                                <span style="font-size: 12px;" id="sort_low" class="custom-option selected" data-value="volvo">Sort by price: low
+                                                    to high</span>
+                                                <span style="font-size: 12px;" id="sort_high" class="custom-option" data-value="mercedes">Sort by price: high to low</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                             <style>
                                 .woocommerce .shop_mode_list ul.products li.product+li.product .post_item,
@@ -621,26 +643,11 @@
                                     padding-top: 5px;
                                 }
                             </style>
-                            <p class="woocommerce-result-count">
-                                Showing 1&ndash;8 of 10 results</p>
-
-                            <div class="select-wrapper">
-                                <div class="select">
-                                    <div class="select__trigger"><span style="font-size: 12px;">Sort</span>
-                                        <div style="font-size: 12px;" class="arrow"></div>
-                                    </div>
-                                    <div class="custom-options">
-                                        <span style="font-size: 12px;" id="sort_low" class="custom-option selected" data-value="volvo">Sort by price: low to high</span>
-                                        <span style="font-size: 12px;" id="sort_high" class="custom-option" data-value="mercedes">Sort by price: high to low</span>
-                                    </div>
-                                </div>
-                            </div>
                             <style>
                                 .select-wrapper {
                                     position: relative;
                                     user-select: none;
                                     width: 100%;
-                                    margin-left: 565px;
                                 }
                                 
                                 .select {
